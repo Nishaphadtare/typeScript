@@ -1,0 +1,33 @@
+var direction;
+(function (direction) {
+    direction[direction["East"] = 0] = "East";
+    direction[direction["West"] = 1] = "West";
+    direction[direction["North"] = 2] = "North";
+    direction[direction["South"] = 3] = "South";
+})(direction || (direction = {}));
+console.log(direction.East);
+console.log(direction.West);
+console.log(direction.North);
+console.log(direction.South);
+console.log(direction[0]);
+console.log(direction[1]);
+console.log(direction[2]);
+console.log(direction[3]);
+console.log("--------------------------------------------------------------------------------------");
+var WeekEnds;
+(function (WeekEnds) {
+    WeekEnds[WeekEnds["Monday"] = 1] = "Monday";
+    WeekEnds[WeekEnds["Tuesday"] = 2] = "Tuesday";
+    WeekEnds[WeekEnds["Wednesday"] = 3] = "Wednesday";
+    WeekEnds[WeekEnds["Thursday"] = 4] = "Thursday";
+    WeekEnds[WeekEnds["Friday"] = 5] = "Friday";
+    WeekEnds[WeekEnds["Saturday"] = 6] = "Saturday";
+    WeekEnds[WeekEnds["Sunday"] = 7] = "Sunday";
+})(WeekEnds || (WeekEnds = {}));
+console.log(WeekEnds[1]);
+console.log(WeekEnds[2]);
+console.log(WeekEnds[3]);
+console.log(WeekEnds[4]);
+console.log(WeekEnds[5]);
+console.log(WeekEnds[6]);
+console.log(WeekEnds[7]);
